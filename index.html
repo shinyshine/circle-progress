@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>圆形滚动进度显示</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div id="wrapper">
+	<div class="circle">
+		<div class="circleProgress_wrapper">
+		    <div class="wrapper right">
+		        <div class="circleProgress rightcircle"  id="right"></div>
+		    </div>
+		    <div class="wrapper left">
+		        <div class="circleProgress leftcircle" id="left"></div>
+		    </div>
+		</div>
+	</div>
+	
+</div>
+	<script src="index.js"></script>
+	<script>
+		window.onload = function(){
+			var wrapper = document.getElementById('wrapper');
+			CircleProgress.init({
+				wrapper: wrapper
+		});
+
+}
+	</script>
+</body>
+</html>

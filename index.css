@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+}
+#wrapper{
+	width: 100%;
+	height: 6200px;
+	background-color: pink;
+}
+.circle{
+	position: fixed;
+	width: 100%;
+}
+.circleProgress_wrapper{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapper{
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  top:0;
+  overflow: hidden;
+}
+.right{
+  right:0;
+}
+.left{
+  left:0;
+}
+.circleProgress{
+  width: 160px;
+  height: 160px;
+  border:20px solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+   -webkit-transform: rotate(-135deg); 
+}
+.rightcircle{
+  border-top:20px solid green;
+  border-right:20px solid green;
+  right:0;
+}
+.leftcircle{
+  border-bottom:20px solid green;
+  border-left:20px solid green;
+  left:0;
+}
